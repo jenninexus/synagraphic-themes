@@ -1,0 +1,52 @@
+{
+  "name": "synagraphic-themes",
+  "displayName": "Synagraphic — Cyberpunk Theme Pack",
+  "description": "6 cyberpunk dark themes with semantic highlighting — near-black voids with neon accents. For devs who live in the dark.",
+  "version": "1.0.0",
+  "publisher": "jenninexus",
+  "author": { "name": "JenniNexus", "url": "https://jenninexus.com" },
+  "license": "MIT",
+  "engines": { "vscode": "^1.60.0" },
+  "categories": ["Themes"],
+  "keywords": ["cyberpunk", "dark", "neon", "muted", "theme pack", "semantic highlighting", "synagraphic"],
+  "galleryBanner": { "color": "#050508", "theme": "dark" },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jenninexus/synagraphic-themes"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Synagraphic: Void Circuit",
+        "uiTheme": "vs-dark",
+        "path": "./themes/void-circuit.json"
+      },
+      {
+        "label": "Synagraphic: Neon Decay",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-decay.json"
+      },
+      {
+        "label": "Synagraphic: Ghost Protocol",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ghost-protocol.json"
+      },
+      {
+        "label": "Synagraphic: Plasma Drift",
+        "uiTheme": "vs-dark",
+        "path": "./themes/plasma-drift.json"
+      },
+      {
+        "label": "Synagraphic: Acid Rain",
+        "uiTheme": "vs-dark",
+        "path": "./themes/acid-rain.json"
+      },
+      {
+        "label": "Synagraphic: Martian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/martian.json"
+      }
+    ]
+  }
+}

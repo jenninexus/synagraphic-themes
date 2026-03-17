@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="mt-bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1008"/>
+      <stop offset="100%" stop-color="#0a0804"/>
+    </radialGradient>
+    <filter id="mt-glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="mt-glow-strong">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Dark mars surface -->
+  <circle cx="64" cy="64" r="62" fill="url(#mt-bg)" stroke="#FF6B0022" stroke-width="1.5"/>
+  <!-- Mars terrain lines -->
+  <g stroke="#FF6B00" stroke-width="0.8" stroke-linecap="round" opacity="0.2" filter="url(#mt-glow)">
+    <path d="M20,80 Q40,60 64,70 Q88,80 108,65" fill="none"/>
+    <path d="M15,90 Q45,75 64,82 Q83,89 113,78" fill="none"/>
+    <path d="M25,70 Q50,50 75,58 Q100,66 110,55" fill="none"/>
+  </g>
+  <!-- Planet ring / orbit -->
+  <ellipse cx="64" cy="64" rx="48" ry="16" fill="none" stroke="#8B5CF6" stroke-width="1" opacity="0.3" filter="url(#mt-glow)" transform="rotate(-20 64 64)"/>
+  <!-- Martian orange core glow -->
+  <circle cx="64" cy="52" r="20" fill="none" stroke="#FF6B00" stroke-width="1.5" opacity="0.4" filter="url(#mt-glow-strong)"/>
+  <!-- Key accent nodes -->
+  <g filter="url(#mt-glow-strong)">
+    <circle cx="64" cy="52" r="6" fill="#FF6B00"/>
+    <circle cx="44" cy="68" r="4" fill="#8B5CF6"/>
+    <circle cx="84" cy="68" r="4" fill="#8B5CF6"/>
+    <circle cx="52" cy="42" r="3" fill="#42f4c8"/>
+    <circle cx="76" cy="42" r="3" fill="#42f4c8"/>
+    <circle cx="64" cy="80" r="3.5" fill="#FF4500"/>
+  </g>
+  <!-- Central bright core -->
+  <circle cx="64" cy="52" r="2.5" fill="#FFB380" opacity="0.9"/>
+  <!-- Tiny star field -->
+  <g fill="#42f4c8" opacity="0.4">
+    <circle cx="22" cy="28" r="1"/>
+    <circle cx="98" cy="24" r="1"/>
+    <circle cx="106" cy="48" r="0.8"/>
+    <circle cx="18" cy="52" r="0.8"/>
+    <circle cx="34" cy="100" r="1"/>
+    <circle cx="94" cy="96" r="1"/>
+  </g>
+</svg>

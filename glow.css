@@ -1,0 +1,107 @@
+/*
+ * Synagraphic — Neon Glow Enhancement
+ * Optional CSS for VS Code (requires "Custom CSS and JS Loader" extension)
+ *
+ * INSTALLATION:
+ * 1. Install extension: be5invis.vscode-custom-css
+ * 2. Add to settings.json:
+ *    "vscode_custom_css.imports": [
+ *      "file:///path/to/this/glow.css"
+ *    ]
+ * 3. Ctrl+Shift+P → "Enable Custom CSS and JS"
+ * 4. Restart VS Code
+ *
+ * Works with all Synagraphic themes. Glow intensity adapts to each theme's accent colors.
+ */
+
+/* ═══════════════════════════════════════════════
+   KEYWORD GLOW — control flow, storage, operators
+   ═══════════════════════════════════════════════ */
+.mtk6,
+.mtk5 {
+  text-shadow:
+    0 0 2px currentColor,
+    0 0 8px rgba(255, 255, 255, 0.08),
+    0 0 18px currentColor;
+  filter: brightness(1.05);
+}
+
+/* ═══════════════════════════════════════════════
+   STRING GLOW — subtle luminance on string tokens
+   ═══════════════════════════════════════════════ */
+.mtk4 {
+  text-shadow:
+    0 0 2px currentColor,
+    0 0 10px rgba(255, 255, 255, 0.05);
+  filter: brightness(1.03);
+}
+
+/* ═══════════════════════════════════════════════
+   FUNCTION GLOW — function names and calls
+   ═══════════════════════════════════════════════ */
+.mtk8,
+.mtk7 {
+  text-shadow:
+    0 0 3px currentColor,
+    0 0 12px rgba(255, 255, 255, 0.06);
+  filter: brightness(1.04);
+}
+
+/* ═══════════════════════════════════════════════
+   TYPE / CLASS GLOW — type annotations, classes
+   ═══════════════════════════════════════════════ */
+.mtk9,
+.mtk10 {
+  text-shadow:
+    0 0 2px currentColor,
+    0 0 14px rgba(255, 255, 255, 0.05);
+  filter: brightness(1.04);
+}
+
+/* ═══════════════════════════════════════════════
+   CURSOR GLOW — pulsing neon cursor
+   ═══════════════════════════════════════════════ */
+.cursor {
+  box-shadow:
+    0 0 4px currentColor,
+    0 0 12px currentColor !important;
+}
+
+/* ═══════════════════════════════════════════════
+   BRACKET MATCH GLOW — highlight matching brackets
+   ═══════════════════════════════════════════════ */
+.bracket-match {
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.12);
+}
+
+/* ═══════════════════════════════════════════════
+   ACTIVE TAB GLOW — subtle top-border bloom
+   ═══════════════════════════════════════════════ */
+.tab.active .tab-border-top-container {
+  box-shadow: 0 0 8px currentColor;
+}
+
+/* ═══════════════════════════════════════════════
+   STATUS BAR GLOW — ambient bottom edge
+   ═══════════════════════════════════════════════ */
+.statusbar {
+  box-shadow: 0 -1px 10px rgba(255, 255, 255, 0.03);
+}
+
+/* ═══════════════════════════════════════════════
+   MINIMAP GLOW — soft bloom on selections
+   ═══════════════════════════════════════════════ */
+.minimap-find-match {
+  box-shadow: 0 0 4px currentColor;
+}
+
+/* ═══════════════════════════════════════════════
+   REDUCED MOTION — respect user preference
+   ═══════════════════════════════════════════════ */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    text-shadow: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+  }
+}

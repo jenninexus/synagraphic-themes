@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="main-bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0e0e1a"/>
+      <stop offset="100%" stop-color="#050508"/>
+    </radialGradient>
+    <filter id="main-glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="main-glow-strong">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="main-glow-soft">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="124" fill="url(#main-bg)" stroke="#8b6aff33" stroke-width="2"/>
+
+  <!-- Outer ambient glow ring -->
+  <circle cx="128" cy="128" r="110" fill="none" stroke="#8b6aff10" stroke-width="8" filter="url(#main-glow-soft)"/>
+
+  <!-- Stylized "S" made of circuit traces -->
+  <!-- Top curve of S -->
+  <g filter="url(#main-glow)">
+    <path d="M 155 58 C 155 58 170 58 175 65 C 182 76 178 88 165 94 L 118 114"
+          fill="none" stroke="#8b6aff" stroke-width="3" stroke-linecap="round"/>
+    <!-- Middle connection -->
+    <path d="M 118 114 C 118 114 100 122 95 132 C 88 146 95 160 110 164 L 140 172"
+          fill="none" stroke="#8b6aff" stroke-width="3" stroke-linecap="round"/>
+    <!-- Bottom curve of S -->
+    <path d="M 140 172 C 140 172 160 178 162 190 C 164 200 155 208 140 208 L 105 200"
+          fill="none" stroke="#8b6aff" stroke-width="3" stroke-linecap="round"/>
+    <!-- Top entry trace -->
+    <path d="M 100 50 L 120 54 L 140 52 L 155 58"
+          fill="none" stroke="#3dd8d8" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <!-- Bottom exit trace -->
+    <path d="M 105 200 L 90 204 L 80 210"
+          fill="none" stroke="#3dd8d8" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <!-- Branch traces off the S -->
+  <g stroke="#3dd8d8" stroke-width="1.5" stroke-linecap="round" opacity="0.5" filter="url(#main-glow)">
+    <line x1="175" y1="65" x2="195" y2="58"/>
+    <line x1="165" y1="94" x2="185" y2="100"/>
+    <line x1="95" y1="132" x2="72" y2="126"/>
+    <line x1="110" y1="164" x2="82" y2="170"/>
+    <line x1="162" y1="190" x2="185" y2="196"/>
+    <line x1="120" y1="54" x2="115" y2="38"/>
+    <line x1="90" y1="204" x2="88" y2="222"/>
+  </g>
+
+  <!-- Nodes at intersections and endpoints -->
+  <g filter="url(#main-glow-strong)">
+    <!-- Top entry nodes -->
+    <circle cx="100" cy="50" r="4" fill="#3dd8d8"/>
+    <circle cx="120" cy="54" r="3" fill="#3dd8d8"/>
+    <circle cx="140" cy="52" r="3" fill="#3dd8d8"/>
+    <circle cx="155" cy="58" r="5" fill="#8b6aff"/>
+    <!-- S curve nodes -->
+    <circle cx="175" cy="65" r="4" fill="#8b6aff"/>
+    <circle cx="165" cy="94" r="5" fill="#8b6aff"/>
+    <circle cx="118" cy="114" r="6" fill="#8b6aff"/>
+    <circle cx="95" cy="132" r="5" fill="#8b6aff"/>
+    <circle cx="110" cy="164" r="5" fill="#8b6aff"/>
+    <circle cx="140" cy="172" r="5" fill="#8b6aff"/>
+    <circle cx="162" cy="190" r="4" fill="#8b6aff"/>
+    <circle cx="140" cy="208" r="4" fill="#8b6aff"/>
+    <circle cx="105" cy="200" r="5" fill="#8b6aff"/>
+    <!-- Bottom exit nodes -->
+    <circle cx="90" cy="204" r="3" fill="#3dd8d8"/>
+    <circle cx="80" cy="210" r="4" fill="#3dd8d8"/>
+    <!-- Branch endpoint nodes -->
+    <circle cx="195" cy="58" r="3" fill="#3dd8d8"/>
+    <circle cx="185" cy="100" r="3" fill="#3dd8d8"/>
+    <circle cx="72" cy="126" r="3" fill="#3dd8d8"/>
+    <circle cx="82" cy="170" r="3" fill="#3dd8d8"/>
+    <circle cx="185" cy="196" r="3" fill="#3dd8d8"/>
+    <circle cx="115" cy="38" r="3" fill="#3dd8d8"/>
+    <circle cx="88" cy="222" r="3" fill="#3dd8d8"/>
+  </g>
+
+  <!-- Bright centers on key nodes -->
+  <g opacity="0.9">
+    <circle cx="118" cy="114" r="2.5" fill="#c4b0ff"/>
+    <circle cx="155" cy="58" r="2" fill="#c4b0ff"/>
+    <circle cx="105" cy="200" r="2" fill="#c4b0ff"/>
+    <circle cx="95" cy="132" r="2" fill="#c4b0ff"/>
+    <circle cx="140" cy="172" r="2" fill="#c4b0ff"/>
+  </g>
+</svg>

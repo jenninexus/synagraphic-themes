@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="nd-bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0c1020"/>
+      <stop offset="100%" stop-color="#04060a"/>
+    </radialGradient>
+    <filter id="nd-glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="nd-glow-strong">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <circle cx="64" cy="64" r="62" fill="url(#nd-bg)" stroke="#42f4c822" stroke-width="1.5"/>
+  <g stroke="#42f4c8" stroke-width="1.2" stroke-linecap="round" opacity="0.5" filter="url(#nd-glow)">
+    <line x1="32" y1="36" x2="64" y2="28"/>
+    <line x1="64" y1="28" x2="96" y2="40"/>
+    <line x1="32" y1="36" x2="40" y2="64"/>
+    <line x1="64" y1="28" x2="64" y2="56"/>
+    <line x1="96" y1="40" x2="88" y2="64"/>
+    <line x1="40" y1="64" x2="64" y2="56"/>
+    <line x1="64" y1="56" x2="88" y2="64"/>
+    <line x1="40" y1="64" x2="48" y2="88"/>
+    <line x1="64" y1="56" x2="64" y2="84"/>
+    <line x1="88" y1="64" x2="80" y2="88"/>
+    <line x1="48" y1="88" x2="64" y2="84"/>
+    <line x1="64" y1="84" x2="80" y2="88"/>
+    <line x1="48" y1="88" x2="64" y2="100"/>
+    <line x1="80" y1="88" x2="64" y2="100"/>
+  </g>
+  <g filter="url(#nd-glow-strong)">
+    <circle cx="32" cy="36" r="4" fill="#ff2d6f"/>
+    <circle cx="64" cy="28" r="5" fill="#42f4c8"/>
+    <circle cx="96" cy="40" r="4" fill="#ff2d6f"/>
+    <circle cx="40" cy="64" r="3.5" fill="#b48eff"/>
+    <circle cx="64" cy="56" r="5.5" fill="#42f4c8"/>
+    <circle cx="88" cy="64" r="3.5" fill="#b48eff"/>
+    <circle cx="48" cy="88" r="4" fill="#ff2d6f"/>
+    <circle cx="64" cy="84" r="3.5" fill="#b48eff"/>
+    <circle cx="80" cy="88" r="4" fill="#ff2d6f"/>
+    <circle cx="64" cy="100" r="4.5" fill="#42f4c8"/>
+  </g>
+  <g opacity="0.8">
+    <circle cx="64" cy="28" r="2" fill="#6afce0"/>
+    <circle cx="64" cy="56" r="2.5" fill="#6afce0"/>
+    <circle cx="64" cy="100" r="2" fill="#6afce0"/>
+  </g>
+</svg>
