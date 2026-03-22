@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.2.0 — 2026-03-22
+
+- **WCAG contrast refinement:** 23 color changes across 13 palettes — 0 FAIL, 0 duplicate pairs
+- Refined palettes: synabrain, ocean, forest, neon, cyberpunk, aurora-borealis, synthwave, midnight-depths, cherry-blossom, arctic-frost, velvet-noir, void-circuit, ghost-protocol
+- Added `icon.png` (256x256) generated from circuit-trace SVG
+- Updated submodule workflow documentation across all repos
+- Palette version: 2.2.0
+
 ## 2.1.0 — 2026-03-20
 
 - All skin families now use semi-transparent glass surfaces with blur (0.42–0.55 opacity) instead of opaque panels

@@ -1,10 +1,11 @@
 # Syn Themes — Cyberpunk Glass Theme Pack
 
-Cyberpunk dark theme pack for VS Code with 6 named themes. Near-black voids with neon accents, semantic highlighting, and optional glow effects.
+6 cyberpunk dark themes for VS Code. Near-black voids with neon accents, full semantic highlighting, and optional glow effects.
 
-Part of the Syna design system — 6 glass skin families, 21 unified accent palettes (v2.2), 31 total presets.
+Part of the Syna design system — shared across VS Code, Synabrain, Synagen, and Syqo.
 
-> **Two products, one source:** This repo produces (1) a **VS Code extension** (`monofinitystudio.syn-themes`) shipping 6 Synagraphic themes, and (2) a **web app theme pack** (21 palettes + 6 skin families) distributed via the `optional-features` submodule to Synabrain, Synagen, and Syqo.
+<!-- Screenshots: replace these placeholders with actual VS Code captures -->
+<!-- ![Void Circuit](assets/screenshots/void-circuit.png) -->
 
 ## Themes
 
@@ -17,9 +18,25 @@ Part of the Syna design system — 6 glass skin families, 21 unified accent pale
 | **Acid Rain** | #68c030 (toxic green) | #90e848 (lime) | Matrix terminal |
 | **Martian** | #FF6B00 (orange) | #8B5CF6 (purple) | MartianGames cyberpunk |
 
+## Install
+
+Search **"Syn Themes"** in the VS Code Extensions marketplace, or:
+
+```
+ext install monofinitystudio.syn-themes
+```
+
+## Features
+
+- **6 cyberpunk dark themes** with 100+ color tokens each
+- **Full semantic highlighting** — TypeScript, React, Python, Go, Rust, and more
+- **Terminal ANSI colors** — themed terminal palette per theme
+- **Optional glow effects** via `glow.css` (requires [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css))
+- **WCAG-refined palettes** (v2.2) — 0 contrast failures
+
 ## Skin Families (6)
 
-Glass-morphism surface layers with semi-transparent blur, accent-tinted borders, and depth stacking.
+Glass-morphism surface layers with semi-transparent blur, accent-tinted borders, and depth stacking. Used across the Syna web apps.
 
 | Family | Modes | Character |
 |--------|-------|-----------|
@@ -32,36 +49,17 @@ Glass-morphism surface layers with semi-transparent blur, accent-tinted borders,
 
 ## Accent Palettes (21)
 
-All palettes are unified in one collection. The 6 VS Code themes have full editor token definitions; all 21 work as web accent presets.
+All palettes are unified in one collection. The 6 VS Code themes have full editor token definitions; all 21 work as web accent presets in the Theme Customizer.
 
-**Machine-readable palettes:** [`palettes/all-palettes.json`](palettes/all-palettes.json) — canonical SSOT for all skins + palettes.
+**15 core:** synabrain, martian, ocean, sunset, forest, neon, minimal, studio-pro-light, cyberpunk, aurora-borealis, synthwave, midnight-depths, cherry-blossom, arctic-frost, velvet-noir
 
-## Install
+**6 Synagraphic:** void-circuit, neon-decay, ghost-protocol, plasma-drift, acid-rain, sg-martian
 
-### VS Code
-Search "Syn Themes" in the Extensions marketplace (`monofinitystudio.syn-themes`), or install from VSIX.
+**Machine-readable:** [`palettes/all-palettes.json`](palettes/all-palettes.json) — canonical SSOT for all palettes + skin families.
 
-### Web Apps (Syna Ecosystem)
-These themes are available as accent palettes in Synabrain, Synagen, and Syqo via the Theme Customizer panel. Web palette colors map to the 6-color accent system (`cyan`, `purple`, `pink`, `indigo`, `blue`, `teal`).
+## Glow Effects
 
-## Syna Skins
-
-This extension participates in the [Syna Skin Contract](https://github.com/jenninexus/optional-features/blob/main/docs/SKIN-CONTRACT.md):
-
-- **Data attributes:** `data-syna-skin`, `data-syna-mode`, `data-syna-palette`, `data-syna-family`
-- **CSS variable bridge:** `--accent-cyan`, `--accent-purple`, `--bg-primary`, `--glow-primary`
-- **`syna-theme-change` event:** Fired when switching palettes
-- **Glass properties:** All skins use semi-transparent surfaces with `backdrop-filter: blur()` for depth
-
-### Design Token Alignment
-
-| Token | Mapping |
-|-------|---------|
-| `--accent-cyan` | Theme's web `cyan` color |
-| `--accent-purple` | Theme's web `purple` color |
-| `--bg-primary` | Skin family background |
-| `--text-primary` | Skin family text color |
-| `--glow-primary` | Theme's glow color |
+`glow.css` adds text-shadow neon glow to VS Code syntax tokens. Requires [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css). Respects `prefers-reduced-motion`.
 
 ## Files
 
@@ -69,23 +67,22 @@ This extension participates in the [Syna Skin Contract](https://github.com/jenni
 themes/                  VS Code theme JSON files (100+ tokens each)
 palettes/                Machine-readable palette + skin JSON
   all-palettes.json      Canonical SSOT — all 21 palettes + 6 skin families
-  synagraphic-palettes   VS Code theme extract (vscode/web/terminal per theme)
-  core/                  15 core web palettes (subset)
-icons/                   Extension icon SVGs
-glow.css                 Optional neon glow effects (Custom CSS and JS Loader)
-synagrapic-themes.html   Visual showcase — all skins + palettes
+icons/                   Extension icon SVGs + per-theme SVGs
+glow.css                 Optional neon glow effects
 ```
 
-## Glow Effects
+## Web App Integration
 
-`glow.css` adds text-shadow neon glow to VS Code syntax tokens. Requires [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css). Respects `prefers-reduced-motion`.
+These themes are available as accent palettes in Synabrain, Synagen, and Syqo via the Theme Customizer panel. Web palette colors map to the 6-color accent system.
+
+Follows the [Syna Skin Contract](https://github.com/jenninexus/optional-features/blob/main/docs/SKIN-CONTRACT.md) — `data-skin-family`, `data-theme`, `data-accent-palette` attributes + CSS variable bridge.
 
 ## Related
 
 | Resource | Purpose |
 |----------|---------|
 | [optional-features](https://github.com/jenninexus/optional-features) | Shared feature registry + theme contracts |
-| [SKIN-CONTRACT.md](https://github.com/jenninexus/optional-features/blob/main/docs/SKIN-CONTRACT.md) | Cross-app skin compliance contract |
+| [SKIN-CONTRACT.md](https://github.com/jenninexus/optional-features/blob/main/docs/SKIN-CONTRACT.md) | Cross-app skin compliance |
 | [DESIGN-TOKENS.md](https://github.com/jenninexus/optional-features/blob/main/docs/DESIGN-TOKENS.md) | Shared design tokens |
 
 ## License

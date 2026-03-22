@@ -2,8 +2,10 @@ assets/
 tools/
 *.html
 *.code-workspace
+*.vsix
 dev.md
 CLAUDE.md
 .vscode/
 .git/
+.gitignore
 node_modules/
