@@ -1,0 +1,9 @@
+assets/
+tools/
+*.html
+*.code-workspace
+dev.md
+CLAUDE.md
+.vscode/
+.git/
+node_modules/
