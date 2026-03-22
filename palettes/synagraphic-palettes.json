@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Synagraphic VS Code theme palettes — extracted for cross-project reference",
-    "source": "https://github.com/jenninexus/synagraphic-themes",
+    "source": "https://github.com/jenninexus/syn-themes",
     "version": "1.1.0",
     "updated": "2026-03-20",
     "notes": "VS Code colors are from themes/*.json. Web accent colors are from accentPalettes.ts (Synabrain) and themeCustomizerStore.ts (Synagen) — the 6-color set used by the Theme Customizer."
