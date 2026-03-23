@@ -4,8 +4,7 @@
 
 Part of the Syna design system — shared across VS Code, Synabrain, Synagen, and Syqo.
 
-<!-- Screenshots: replace these placeholders with actual VS Code captures -->
-<!-- ![Void Circuit](assets/screenshots/void-circuit.png) -->
+![All Theme Swatches](assets/swatches/all-swatches.png)
 
 ## Themes
 

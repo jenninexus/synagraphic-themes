@@ -8,4 +8,5 @@ CLAUDE.md
 .vscode/
 .git/
 .gitignore
+.config/
 node_modules/
