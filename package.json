@@ -3,7 +3,7 @@
   "displayName": "Synagraphic — Cyberpunk Theme Pack",
   "description": "6 cyberpunk VS Code themes + 21 unified accent palettes + 6 glass skin families — 31 total presets for the Syna ecosystem.",
   "version": "2.2.0",
-  "publisher": "monofinitystudio",
+  "publisher": "jenninexus",
   "author": { "name": "Monofinity Studio", "url": "https://github.com/monofinitystudio" },
   "license": "SEE LICENSE IN LICENSE",
   "engines": { "vscode": "^1.60.0" },
