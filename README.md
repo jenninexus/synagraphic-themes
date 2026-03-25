@@ -88,4 +88,4 @@ If you enjoy the themes, here are some ways to show support:
 
 Proprietary. See [LICENSE](LICENSE).
 
-Published by [Jenni Nexus](https://jenninexus.com) at [Monofinity Studio](https://github.com/monofinitystudio).
+Published by [Jenni Nexus](https://github.com/jenninexus) at [Monofinity Studio](https://github.com/monofinitystudio).
