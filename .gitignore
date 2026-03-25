@@ -4,3 +4,5 @@ dev.md
 .vscode/
 .config/
 .env
+CLAUDE.md
+syn-themes.code-workspace

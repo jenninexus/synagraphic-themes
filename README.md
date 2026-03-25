@@ -6,6 +6,8 @@ Part of the Syna design system — shared across VS Code, Synabrain, Synagen, an
 
 ![All Theme Swatches](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/swatches/all-swatches.png)
 
+![Showcase Scroll](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/video/showcase-scroll.gif)
+
 ## Themes
 
 | Theme | Primary | Accent | Aesthetic |
@@ -69,20 +71,6 @@ palettes/                Machine-readable palette + skin JSON
 icons/                   Extension icon SVGs + per-theme SVGs
 glow.css                 Optional neon glow effects
 ```
-
-## Web App Integration
-
-These themes are available as accent palettes in Synabrain, Synagen, and Syqo via the Theme Customizer panel. Web palette colors map to the 6-color accent system.
-
-Follows the [Syna Skin Contract](https://github.com/jenninexus/optional-features/blob/main/docs/SKIN-CONTRACT.md) — `data-skin-family`, `data-theme`, `data-accent-palette` attributes + CSS variable bridge.
-
-## Related
-
-| Resource | Purpose |
-|----------|---------|
-| [optional-features](https://github.com/jenninexus/optional-features) | Shared feature registry + theme contracts |
-| [SKIN-CONTRACT.md](https://github.com/jenninexus/optional-features/blob/main/docs/SKIN-CONTRACT.md) | Cross-app skin compliance |
-| [DESIGN-TOKENS.md](https://github.com/jenninexus/optional-features/blob/main/docs/DESIGN-TOKENS.md) | Shared design tokens |
 
 ## License
 
