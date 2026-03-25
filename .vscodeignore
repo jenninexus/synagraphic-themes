@@ -9,4 +9,5 @@ CLAUDE.md
 .git/
 .gitignore
 .config/
+scroll-capture.mjs
 node_modules/

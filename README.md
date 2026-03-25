@@ -69,8 +69,23 @@ icons/           Extension icon SVGs per theme
 glow.css         Optional neon glow effects
 ```
 
+## Show Your Support
+
+If you enjoy the themes, here are some ways to show support:
+
+- [Star the repository](https://github.com/jenninexus/syn-themes)
+- [Rate the extension](https://marketplace.visualstudio.com/items?itemName=jenninexus.synagraphic-themes&ssr=false#review-details) on the VS Code Marketplace
+- [Follow on X](https://x.com/jenninexus)
+- [Share on Product Hunt](https://www.producthunt.com/)
+- [Donate via PayPal](https://paypal.me/jenninexus)
+
+## Links
+
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jenninexus.synagraphic-themes)
+- [GitHub Repository](https://github.com/jenninexus/syn-themes)
+
 ## License
 
 Proprietary. See [LICENSE](LICENSE).
 
-Published by [Monofinity Studio](https://github.com/monofinitystudio).
+Published by [Jenni Nexus](https://jenninexus.com) at [Monofinity Studio](https://github.com/monofinitystudio).

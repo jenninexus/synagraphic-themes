@@ -2,7 +2,7 @@
   "_meta": {
     "description": "Syna ecosystem accent palettes + skin families — unified collection",
     "source": "Synabrain accentPalettes.ts + Synagen themeCustomizerStore.ts + syn-themes VS Code extension",
-    "skinContract": "https://github.com/jenninexus/optional-features/blob/main/docs/SKIN-CONTRACT.md",
+    "skinContract": "Syna Skin Contract (internal)",
     "version": "2.2.0",
     "updated": "2026-03-22",
     "totalPalettes": 21,

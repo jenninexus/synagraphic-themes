@@ -8,4 +8,6 @@ CLAUDE.md
 syn-themes.code-workspace
 tools/
 assets/screenshot-sample.tsx
+assets/sample/
+scroll-capture.mjs
 synagraphic-themes.html

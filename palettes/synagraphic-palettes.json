@@ -147,7 +147,7 @@
     }
   },
   "skinContract": {
-    "reference": "https://github.com/jenninexus/optional-features/blob/main/docs/SKIN-CONTRACT.md",
+    "reference": "Syna Skin Contract (internal)",
     "requiredAttributes": ["data-theme", "data-bs-theme", "data-skin-family", "data-accent-palette"],
     "recommendedFamilies": {
       "void-circuit": ["synabrain-glass", "midnight-chrome"],
