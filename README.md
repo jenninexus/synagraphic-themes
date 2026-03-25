@@ -1,8 +1,6 @@
-# Syn Themes — Cyberpunk Glass Theme Pack
+# Syn Themes — Syn-Agentic Cyberpunk Glass Design Presets
 
-6 cyberpunk dark themes for VS Code. Near-black voids with neon accents, full semantic highlighting, and optional glow effects.
-
-Part of the Syna design system — shared across VS Code, Synabrain, Synagen, and Syqo.
+6 cyberpunk dark themes for VS Code — near-black voids with neon accents, glass-morphism surfaces, and full semantic highlighting. Design styles drawn from the Syna creative ecosystem and adapted for the editor.
 
 ![All Theme Swatches](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/swatches/all-swatches.png)
 
@@ -37,26 +35,26 @@ ext install jenninexus.synagraphic-themes
 
 ## Skin Families (6)
 
-Glass-morphism surface layers with semi-transparent blur, accent-tinted borders, and depth stacking. Used across the Syna web apps.
+Glass-morphism surface layers with semi-transparent blur, accent-tinted borders, and depth stacking.
 
 | Family | Modes | Character |
 |--------|-------|-----------|
-| **Synabrain Glass** | dark, light | Cyan-tinted translucent glass |
+| **Cyan Glass** | dark, light | Cyan-tinted translucent glass |
 | **Martian Games** | dark, light | Neutral darks, molten orange borders |
 | **Tinted Glass** | dark, light | Neutral glass — accent palettes dominate |
 | **Holographic Glass** | dark, light | Prismatic rainbow shimmer, animated borders |
-| **Synagen Dark** | dark | Deep-space translucent panels |
+| **Deep Space** | dark | Deep-space translucent panels |
 | **Midnight Chrome** | dark | Blue-charcoal glass, cool steel edges |
 
 ## Accent Palettes (21)
 
-All palettes are unified in one collection. The 6 VS Code themes have full editor token definitions; all 21 work as web accent presets in the Theme Customizer.
+21 accent palettes in one unified collection. The 6 VS Code themes have full editor token definitions; all 21 are available as design presets.
 
 **15 core:** synabrain, martian, ocean, sunset, forest, neon, minimal, studio-pro-light, cyberpunk, aurora-borealis, synthwave, midnight-depths, cherry-blossom, arctic-frost, velvet-noir
 
 **6 Synagraphic:** void-circuit, neon-decay, ghost-protocol, plasma-drift, acid-rain, sg-martian
 
-**Machine-readable:** [`palettes/all-palettes.json`](palettes/all-palettes.json) — canonical SSOT for all palettes + skin families.
+**Machine-readable:** [`palettes/all-palettes.json`](palettes/all-palettes.json)
 
 ## Glow Effects
 
@@ -65,11 +63,10 @@ All palettes are unified in one collection. The 6 VS Code themes have full edito
 ## Files
 
 ```
-themes/                  VS Code theme JSON files (100+ tokens each)
-palettes/                Machine-readable palette + skin JSON
-  all-palettes.json      Canonical SSOT — all 21 palettes + 6 skin families
-icons/                   Extension icon SVGs + per-theme SVGs
-glow.css                 Optional neon glow effects
+themes/          VS Code theme JSON files (100+ tokens each)
+palettes/        Machine-readable palette + skin family JSON
+icons/           Extension icon SVGs per theme
+glow.css         Optional neon glow effects
 ```
 
 ## License
