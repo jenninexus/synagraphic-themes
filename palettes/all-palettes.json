@@ -3,12 +3,13 @@
     "description": "Syna ecosystem accent palettes + skin families — unified collection",
     "source": "Synabrain accentPalettes.ts + Synagen themeCustomizerStore.ts + syn-themes VS Code extension",
     "skinContract": "Syna Skin Contract (internal)",
-    "version": "2.2.0",
-    "updated": "2026-03-22",
+    "version": "2.3.0",
+    "updated": "2026-03-26",
     "totalPalettes": 21,
     "totalSkinFamilies": 6,
+    "totalSkinThemes": 12,
     "format": "6-color accent set (cyan, purple, pink, indigo, blue, teal) + glow + recommended skin families",
-    "notes": "Palettes with 'synagraphic: true' have matching VS Code themes in themes/*.json with full token definitions. All palettes work as web accent presets regardless. v2.2: WCAG contrast fixes, duplicate color dedup."
+    "notes": "All 6 families have dark + light modes (12 skins total). Palettes with 'synagraphic: true' have matching VS Code themes in themes/*.json with full token definitions. All palettes work as web accent presets regardless. v2.2: WCAG contrast fixes. v2.3: renamed Synagen Dark → Synagentic Glass (new default), all families now dark+light, Midnight Chrome more midnight-blue."
   },
   "palettes": {
     "synabrain": {
@@ -138,7 +139,7 @@
       "name": "Ghost Protocol",
       "colors": { "cyan": "#5a9ce8", "purple": "#8878b8", "pink": "#d85858", "indigo": "#6878c0", "blue": "#88c8ff", "teal": "#50a8b8" },
       "glow": "#88c8ff",
-      "recommendedFamilies": ["synagen-dark", "midnight-chrome"],
+      "recommendedFamilies": ["synagentic-glass", "midnight-chrome"],
       "aesthetic": "Operative stealth — cold blue surveillance",
       "synagraphic": true,
       "vscodeTheme": "themes/ghost-protocol.json"
@@ -172,7 +173,14 @@
     }
   },
   "skinFamilies": {
-    "_note": "Skin families define base backgrounds, text colors, and glass effects with semi-transparent blur. Accent palettes overlay on top.",
+    "_note": "Skin families define base backgrounds, text colors, and glass effects with semi-transparent blur. Accent palettes overlay on top. All 6 families have dark + light modes. Synagentic Glass is the universal default.",
+    "synagentic-glass": {
+      "name": "Synagentic Glass",
+      "modes": ["dark", "light"],
+      "default": true,
+      "dark": { "bg": "#0a0e14", "bgSecondary": "rgba(14,20,32,0.88)", "bgTertiary": "rgba(20,28,40,0.78)", "text": "#e6edf3", "glass": "rgba(10,14,20,0.55)", "blur": "14px", "border": "rgba(140,255,240,0.08)" },
+      "light": { "bg": "#f0f4f8", "bgSecondary": "rgba(220,228,240,0.85)", "bgTertiary": "rgba(200,212,228,0.75)", "text": "#0e1726", "glass": "rgba(240,244,248,0.55)", "blur": "14px", "border": "rgba(60,180,170,0.12)" }
+    },
     "synabrain-glass": {
       "name": "Synabrain Glass",
       "modes": ["dark", "light"],
@@ -206,15 +214,11 @@
         "gradientColors": ["#ff6bd6", "#c46bff", "#6ba5ff", "#6bffd6", "#fff06b", "#ff6bd6"]
       }
     },
-    "synagen-dark": {
-      "name": "Synagen Dark",
-      "modes": ["dark"],
-      "dark": { "bg": "#0a0e14", "bgSecondary": "rgba(14,20,32,0.88)", "bgTertiary": "rgba(20,28,40,0.78)", "text": "#e6edf3", "glass": "rgba(10,14,20,0.55)", "blur": "14px", "border": "rgba(140,255,240,0.08)" }
-    },
     "midnight-chrome": {
       "name": "Midnight Chrome",
-      "modes": ["dark"],
-      "dark": { "bg": "#0c0f18", "bgSecondary": "rgba(16,22,34,0.85)", "bgTertiary": "rgba(22,30,46,0.75)", "text": "#c8d4e8", "glass": "rgba(12,15,24,0.48)", "blur": "16px", "border": "rgba(100,140,220,0.1)" }
+      "modes": ["dark", "light"],
+      "dark": { "bg": "#080c1a", "bgSecondary": "rgba(12,18,38,0.88)", "bgTertiary": "rgba(18,26,52,0.78)", "text": "#c8d4e8", "glass": "rgba(8,12,28,0.52)", "blur": "16px", "border": "rgba(80,120,220,0.16)" },
+      "light": { "bg": "#eef2fa", "bgSecondary": "rgba(218,226,244,0.85)", "bgTertiary": "rgba(200,210,234,0.75)", "text": "#0c1028", "glass": "rgba(236,240,250,0.55)", "blur": "16px", "border": "rgba(80,110,200,0.12)" }
     }
   }
 }
