@@ -2,7 +2,7 @@
 
 6 cyberpunk dark themes for VS Code — near-black voids with neon accents, glass-morphism surfaces, and full semantic highlighting.
 
-![Showcase Scroll](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/video/showcase-scroll.gif)
+<img src="https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/video/showcase-scroll.gif" alt="Showcase Scroll" width="100%">
 
 ## Install
 
