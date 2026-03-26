@@ -2,7 +2,7 @@
 
 6 cyberpunk dark themes for VS Code — near-black voids with neon accents, glass-morphism surfaces, and full semantic highlighting.
 
-<img src="https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/video/showcase-scroll.gif" alt="Showcase Scroll" width="100%">
+<img src="https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/media/showcase-scroll.gif" alt="Showcase Scroll" width="100%">
 
 ## Install
 
@@ -16,11 +16,11 @@ ext install jenninexus.synagraphic-themes
 
 | | |
 |:---:|:---:|
-| ![Void Circuit](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/screenshots/syn_void-circuit.png) | ![Neon Decay](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/screenshots/syn_neon-decay.png) |
+| ![Void Circuit](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/media/syn_void-circuit.png) | ![Neon Decay](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/media/syn_neon-decay.png) |
 | **Void Circuit** — muted violet hacker void | **Neon Decay** — industrial cyan + magenta |
-| ![Ghost Protocol](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/screenshots/syn_ghost-protocol.png) | ![Plasma Drift](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/screenshots/syn_plasma-drift.png) |
+| ![Ghost Protocol](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/media/syn_ghost-protocol.png) | ![Plasma Drift](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/media/syn_plasma-drift.png) |
 | **Ghost Protocol** — cold blue operative stealth | **Plasma Drift** — hot pink synthwave heat |
-| ![Acid Rain](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/screenshots/syn_acid-rain.png) | ![Martian](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/screenshots/syn_martian.png) |
+| ![Acid Rain](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/media/syn_acid-rain.png) | ![Martian](https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/media/syn_martian.png) |
 | **Acid Rain** — toxic green matrix terminal | **Martian** — orange + purple cyberpunk |
 
 ## 21 Accent Palettes

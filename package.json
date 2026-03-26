@@ -33,27 +33,27 @@
   "icon": "icon.png",
   "screenshots": [
     {
-      "url": "https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/screenshots/syn_void-circuit.png",
+      "url": "https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/media/syn_void-circuit.png",
       "description": "Void Circuit — muted violet hacker void with cyan accents"
     },
     {
-      "url": "https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/screenshots/syn_neon-decay.png",
+      "url": "https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/media/syn_neon-decay.png",
       "description": "Neon Decay — industrial cyan and magenta cyberpunk"
     },
     {
-      "url": "https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/screenshots/syn_ghost-protocol.png",
+      "url": "https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/media/syn_ghost-protocol.png",
       "description": "Ghost Protocol — cold blue operative stealth"
     },
     {
-      "url": "https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/screenshots/syn_plasma-drift.png",
+      "url": "https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/media/syn_plasma-drift.png",
       "description": "Plasma Drift — hot pink synthwave heat"
     },
     {
-      "url": "https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/screenshots/syn_acid-rain.png",
+      "url": "https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/media/syn_acid-rain.png",
       "description": "Acid Rain — toxic green matrix terminal"
     },
     {
-      "url": "https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/screenshots/syn_martian.png",
+      "url": "https://raw.githubusercontent.com/jenninexus/syn-themes/main/assets/media/syn_martian.png",
       "description": "Martian — orange and purple MartianGames cyberpunk"
     }
   ],
