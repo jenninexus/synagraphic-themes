@@ -1,0 +1,262 @@
+{
+  "_meta": {
+    "description": "Default Syna themes — Synagentic Glass dark + light. Extracted from Syqo src/themes/ for cross-app distribution.",
+    "version": "1.0.0",
+    "extracted_from": "Syqo src/themes/synagentic-glass-{dark,light}.json",
+    "last_updated": "2026-03-27"
+  },
+  "themes": {
+    "synagentic-glass-dark": {
+      "id": "synagentic-glass-dark",
+      "name": "Synagentic Glass Dark",
+      "mode": "dark",
+      "colors": {
+        "background": {
+          "primary": "#0a0e14",
+          "secondary": "#0e1420",
+          "tertiary": "#141c28",
+          "elevated": "#202834"
+        },
+        "accent": {
+          "blue": "#88c8ff",
+          "indigo": "#6878c0",
+          "purple": "#8878b8",
+          "pink": "#d85858",
+          "cyan": "#5a9ce8",
+          "teal": "#50a8b8"
+        },
+        "glow": {
+          "cyan": "#88c8ff",
+          "violet": "#8878b8",
+          "rose": "#d85858",
+          "amber": "#facc15"
+        },
+        "text": {
+          "primary": "rgba(255, 255, 255, 0.92)",
+          "secondary": "rgba(255, 255, 255, 0.65)",
+          "muted": "rgba(255, 255, 255, 0.4)"
+        },
+        "glass": {
+          "background": "rgba(10,14,20,0.55)",
+          "backgroundHover": "rgba(10,14,20,0.67)",
+          "border": "rgba(136,200,255,0.08)",
+          "borderHover": "rgba(136,200,255,0.28)"
+        },
+        "status": {
+          "success": "#4ade80",
+          "warning": "#ffd93d",
+          "error": "#ff6b6b",
+          "info": "#88c8ff"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #5a9ce8, #8878b8)",
+            "bgHover": "linear-gradient(135deg, #78b0f0, #9a8cc8)",
+            "text": "#ffffff",
+            "textHover": "#ffffff",
+            "border": "transparent",
+            "borderHover": "rgba(90, 156, 232, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(10,14,20,0.55)",
+            "bgHover": "rgba(10,14,20,0.70)",
+            "text": "rgba(255, 255, 255, 0.75)",
+            "textHover": "#ffffff",
+            "border": "rgba(136,200,255,0.08)",
+            "borderHover": "rgba(136,200,255,0.28)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(90, 156, 232, 0.15)",
+            "text": "rgba(255, 255, 255, 0.75)",
+            "textHover": "#88c8ff",
+            "border": "rgba(90, 156, 232, 0.3)",
+            "borderHover": "rgba(90, 156, 232, 0.6)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "14px",
+          "tint": "rgba(10,14,20,0.85)",
+          "opacity": 0.55
+        },
+        "glow": {
+          "primary": "0 0 25px rgba(136, 200, 255, 0.35)",
+          "secondary": "0 0 25px rgba(136, 120, 184, 0.35)",
+          "intensity": 0.85
+        },
+        "rainbow": {
+          "shimmerDuration": "20s",
+          "gradientStops": [
+            "#88c8ff",
+            "#8878b8",
+            "#d85858",
+            "#facc15",
+            "#88c8ff"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "xl": "20px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(0, 0, 0, 0.3)",
+        "md": "0 4px 16px rgba(0, 0, 0, 0.4)",
+        "lg": "0 8px 32px rgba(0, 0, 0, 0.5)",
+        "float": "0 12px 40px rgba(0, 0, 0, 0.5), 0 0 1px rgba(136, 200, 255, 0.3)",
+        "glow": "0 0 25px rgba(136, 200, 255, 0.4), 0 0 50px rgba(136, 200, 255, 0.2)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "20s"
+      }
+    },
+    "synagentic-glass-light": {
+      "id": "synagentic-glass-light",
+      "name": "Synagentic Glass Light",
+      "mode": "light",
+      "colors": {
+        "background": {
+          "primary": "#f0f4f8",
+          "secondary": "#dce4f0",
+          "tertiary": "#c8d4e4",
+          "elevated": "#bcc8d8"
+        },
+        "accent": {
+          "blue": "#3a6cb8",
+          "indigo": "#506098",
+          "purple": "#6858a0",
+          "pink": "#b84040",
+          "cyan": "#3a7cc0",
+          "teal": "#388898"
+        },
+        "glow": {
+          "cyan": "#3a7cc0",
+          "violet": "#6858a0",
+          "rose": "#b84040",
+          "amber": "#d97706"
+        },
+        "text": {
+          "primary": "rgba(30, 30, 50, 0.92)",
+          "secondary": "rgba(30, 30, 50, 0.7)",
+          "muted": "rgba(30, 30, 50, 0.5)"
+        },
+        "glass": {
+          "background": "rgba(240,244,248,0.55)",
+          "backgroundHover": "rgba(240,244,248,0.67)",
+          "border": "rgba(58,124,192,0.12)",
+          "borderHover": "rgba(58,124,192,0.32)"
+        },
+        "status": {
+          "success": "#22c55e",
+          "successText": "#16a34a",
+          "warning": "#f59e0b",
+          "warningText": "#d97706",
+          "error": "#f43f5e",
+          "errorText": "#dc2626",
+          "info": "#3a7cc0",
+          "infoText": "#3a7cc0"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #3a7cc0, #6858a0)",
+            "bgHover": "linear-gradient(135deg, #4a8cd0, #7868b0)",
+            "text": "#ffffff",
+            "textHover": "#ffffff",
+            "border": "transparent",
+            "borderHover": "rgba(58, 124, 192, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(240,244,248,0.55)",
+            "bgHover": "rgba(240,244,248,0.70)",
+            "text": "rgba(30, 30, 50, 0.75)",
+            "textHover": "rgba(30, 30, 50, 0.95)",
+            "border": "rgba(58,124,192,0.12)",
+            "borderHover": "rgba(58,124,192,0.32)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(58, 124, 192, 0.12)",
+            "text": "rgba(30, 30, 50, 0.75)",
+            "textHover": "#3a7cc0",
+            "border": "rgba(58, 124, 192, 0.3)",
+            "borderHover": "rgba(58, 124, 192, 0.6)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "14px",
+          "tint": "rgba(240,244,248,0.88)",
+          "opacity": 0.55
+        },
+        "glow": {
+          "primary": "0 0 25px rgba(58, 124, 192, 0.2)",
+          "secondary": "0 0 25px rgba(104, 88, 160, 0.2)",
+          "intensity": 0.5
+        },
+        "rainbow": {
+          "shimmerDuration": "20s",
+          "gradientStops": [
+            "#3a7cc0",
+            "#6858a0",
+            "#b84040",
+            "#d97706",
+            "#3a7cc0"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "xl": "20px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(0, 0, 0, 0.08)",
+        "md": "0 4px 16px rgba(0, 0, 0, 0.1)",
+        "lg": "0 8px 32px rgba(0, 0, 0, 0.12)",
+        "float": "0 12px 40px rgba(0, 0, 0, 0.1), 0 0 1px rgba(58, 124, 192, 0.15)",
+        "glow": "0 0 25px rgba(58, 124, 192, 0.25), 0 0 50px rgba(58, 124, 192, 0.12)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "20s"
+      }
+    }
+  }
+}

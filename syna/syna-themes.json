@@ -1,0 +1,1533 @@
+{
+  "_meta": {
+    "description": "All Syna skin themes — 6 families × 2 modes = 12 skins. Extracted from Syqo src/themes/ for cross-app distribution.",
+    "version": "1.0.0",
+    "families": [
+      "synagentic-glass",
+      "synabrain-glass",
+      "martian-games",
+      "tinted-glass",
+      "holographic-glass",
+      "midnight-chrome"
+    ],
+    "skin_count": 12,
+    "extracted_from": "Syqo src/themes/*.json",
+    "last_updated": "2026-03-27"
+  },
+  "themes": {
+    "synagentic-glass-dark": {
+      "id": "synagentic-glass-dark",
+      "name": "Synagentic Glass Dark",
+      "mode": "dark",
+      "colors": {
+        "background": {
+          "primary": "#0a0e14",
+          "secondary": "#0e1420",
+          "tertiary": "#141c28",
+          "elevated": "#202834"
+        },
+        "accent": {
+          "blue": "#88c8ff",
+          "indigo": "#6878c0",
+          "purple": "#8878b8",
+          "pink": "#d85858",
+          "cyan": "#5a9ce8",
+          "teal": "#50a8b8"
+        },
+        "glow": {
+          "cyan": "#88c8ff",
+          "violet": "#8878b8",
+          "rose": "#d85858",
+          "amber": "#facc15"
+        },
+        "text": {
+          "primary": "rgba(255, 255, 255, 0.92)",
+          "secondary": "rgba(255, 255, 255, 0.65)",
+          "muted": "rgba(255, 255, 255, 0.4)"
+        },
+        "glass": {
+          "background": "rgba(10,14,20,0.55)",
+          "backgroundHover": "rgba(10,14,20,0.67)",
+          "border": "rgba(136,200,255,0.08)",
+          "borderHover": "rgba(136,200,255,0.28)"
+        },
+        "status": {
+          "success": "#4ade80",
+          "warning": "#ffd93d",
+          "error": "#ff6b6b",
+          "info": "#88c8ff"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #5a9ce8, #8878b8)",
+            "bgHover": "linear-gradient(135deg, #78b0f0, #9a8cc8)",
+            "text": "#ffffff",
+            "textHover": "#ffffff",
+            "border": "transparent",
+            "borderHover": "rgba(90, 156, 232, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(10,14,20,0.55)",
+            "bgHover": "rgba(10,14,20,0.70)",
+            "text": "rgba(255, 255, 255, 0.75)",
+            "textHover": "#ffffff",
+            "border": "rgba(136,200,255,0.08)",
+            "borderHover": "rgba(136,200,255,0.28)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(90, 156, 232, 0.15)",
+            "text": "rgba(255, 255, 255, 0.75)",
+            "textHover": "#88c8ff",
+            "border": "rgba(90, 156, 232, 0.3)",
+            "borderHover": "rgba(90, 156, 232, 0.6)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "14px",
+          "tint": "rgba(10,14,20,0.85)",
+          "opacity": 0.55
+        },
+        "glow": {
+          "primary": "0 0 25px rgba(136, 200, 255, 0.35)",
+          "secondary": "0 0 25px rgba(136, 120, 184, 0.35)",
+          "intensity": 0.85
+        },
+        "rainbow": {
+          "shimmerDuration": "20s",
+          "gradientStops": [
+            "#88c8ff",
+            "#8878b8",
+            "#d85858",
+            "#facc15",
+            "#88c8ff"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "xl": "20px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(0, 0, 0, 0.3)",
+        "md": "0 4px 16px rgba(0, 0, 0, 0.4)",
+        "lg": "0 8px 32px rgba(0, 0, 0, 0.5)",
+        "float": "0 12px 40px rgba(0, 0, 0, 0.5), 0 0 1px rgba(136, 200, 255, 0.3)",
+        "glow": "0 0 25px rgba(136, 200, 255, 0.4), 0 0 50px rgba(136, 200, 255, 0.2)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "20s"
+      }
+    },
+    "synagentic-glass-light": {
+      "id": "synagentic-glass-light",
+      "name": "Synagentic Glass Light",
+      "mode": "light",
+      "colors": {
+        "background": {
+          "primary": "#f0f4f8",
+          "secondary": "#dce4f0",
+          "tertiary": "#c8d4e4",
+          "elevated": "#bcc8d8"
+        },
+        "accent": {
+          "blue": "#3a6cb8",
+          "indigo": "#506098",
+          "purple": "#6858a0",
+          "pink": "#b84040",
+          "cyan": "#3a7cc0",
+          "teal": "#388898"
+        },
+        "glow": {
+          "cyan": "#3a7cc0",
+          "violet": "#6858a0",
+          "rose": "#b84040",
+          "amber": "#d97706"
+        },
+        "text": {
+          "primary": "rgba(30, 30, 50, 0.92)",
+          "secondary": "rgba(30, 30, 50, 0.7)",
+          "muted": "rgba(30, 30, 50, 0.5)"
+        },
+        "glass": {
+          "background": "rgba(240,244,248,0.55)",
+          "backgroundHover": "rgba(240,244,248,0.67)",
+          "border": "rgba(58,124,192,0.12)",
+          "borderHover": "rgba(58,124,192,0.32)"
+        },
+        "status": {
+          "success": "#22c55e",
+          "successText": "#16a34a",
+          "warning": "#f59e0b",
+          "warningText": "#d97706",
+          "error": "#f43f5e",
+          "errorText": "#dc2626",
+          "info": "#3a7cc0",
+          "infoText": "#3a7cc0"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #3a7cc0, #6858a0)",
+            "bgHover": "linear-gradient(135deg, #4a8cd0, #7868b0)",
+            "text": "#ffffff",
+            "textHover": "#ffffff",
+            "border": "transparent",
+            "borderHover": "rgba(58, 124, 192, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(240,244,248,0.55)",
+            "bgHover": "rgba(240,244,248,0.70)",
+            "text": "rgba(30, 30, 50, 0.75)",
+            "textHover": "rgba(30, 30, 50, 0.95)",
+            "border": "rgba(58,124,192,0.12)",
+            "borderHover": "rgba(58,124,192,0.32)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(58, 124, 192, 0.12)",
+            "text": "rgba(30, 30, 50, 0.75)",
+            "textHover": "#3a7cc0",
+            "border": "rgba(58, 124, 192, 0.3)",
+            "borderHover": "rgba(58, 124, 192, 0.6)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "14px",
+          "tint": "rgba(240,244,248,0.88)",
+          "opacity": 0.55
+        },
+        "glow": {
+          "primary": "0 0 25px rgba(58, 124, 192, 0.2)",
+          "secondary": "0 0 25px rgba(104, 88, 160, 0.2)",
+          "intensity": 0.5
+        },
+        "rainbow": {
+          "shimmerDuration": "20s",
+          "gradientStops": [
+            "#3a7cc0",
+            "#6858a0",
+            "#b84040",
+            "#d97706",
+            "#3a7cc0"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "xl": "20px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(0, 0, 0, 0.08)",
+        "md": "0 4px 16px rgba(0, 0, 0, 0.1)",
+        "lg": "0 8px 32px rgba(0, 0, 0, 0.12)",
+        "float": "0 12px 40px rgba(0, 0, 0, 0.1), 0 0 1px rgba(58, 124, 192, 0.15)",
+        "glow": "0 0 25px rgba(58, 124, 192, 0.25), 0 0 50px rgba(58, 124, 192, 0.12)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "20s"
+      }
+    },
+    "synabrain-glass-dark": {
+      "id": "synabrain-glass-dark",
+      "name": "Synabrain Glass Dark",
+      "mode": "dark",
+      "colors": {
+        "background": {
+          "primary": "#0e0c16",
+          "secondary": "#151920",
+          "tertiary": "#1e2329",
+          "elevated": "#262c35"
+        },
+        "accent": {
+          "blue": "#0d6efd",
+          "indigo": "#6610f2",
+          "purple": "#6f42c1",
+          "pink": "#d63384",
+          "cyan": "#0dcaf0",
+          "teal": "#20c997"
+        },
+        "glow": {
+          "cyan": "#4de8ff",
+          "violet": "#b48eff",
+          "rose": "#ff6b9d",
+          "amber": "#ffd06b"
+        },
+        "text": {
+          "primary": "rgba(255, 255, 255, 0.92)",
+          "secondary": "rgba(255, 255, 255, 0.65)",
+          "muted": "rgba(255, 255, 255, 0.4)"
+        },
+        "glass": {
+          "background": "rgba(30, 35, 45, 0.65)",
+          "backgroundHover": "rgba(40, 45, 55, 0.75)",
+          "border": "rgba(77, 232, 255, 0.2)",
+          "borderHover": "rgba(77, 232, 255, 0.4)"
+        },
+        "status": {
+          "success": "#4ade80",
+          "warning": "#ffd93d",
+          "error": "#ff6b6b",
+          "info": "#4de8ff"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #0dcaf0, #6f42c1)",
+            "bgHover": "linear-gradient(135deg, #4de8ff, #8b5cf6)",
+            "text": "#ffffff",
+            "textHover": "#ffffff",
+            "border": "transparent",
+            "borderHover": "rgba(77, 232, 255, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(30, 35, 45, 0.65)",
+            "bgHover": "rgba(50, 60, 75, 0.8)",
+            "text": "rgba(255, 255, 255, 0.75)",
+            "textHover": "#ffffff",
+            "border": "rgba(77, 232, 255, 0.2)",
+            "borderHover": "rgba(77, 232, 255, 0.4)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(77, 232, 255, 0.15)",
+            "text": "rgba(255, 255, 255, 0.75)",
+            "textHover": "#4de8ff",
+            "border": "rgba(77, 232, 255, 0.3)",
+            "borderHover": "rgba(77, 232, 255, 0.6)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "16px",
+          "tint": "rgba(77, 232, 255, 0.03)",
+          "opacity": 0.65
+        },
+        "glow": {
+          "primary": "0 0 25px rgba(77, 232, 255, 0.35)",
+          "secondary": "0 0 25px rgba(180, 142, 255, 0.35)",
+          "intensity": 0.85
+        },
+        "rainbow": {
+          "shimmerDuration": "20s",
+          "gradientStops": [
+            "#4de8ff",
+            "#b48eff",
+            "#ff6b9d",
+            "#ffd06b",
+            "#4de8ff"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', 'Consolas', monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "xl": "20px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(0, 0, 0, 0.3)",
+        "md": "0 4px 16px rgba(0, 0, 0, 0.4)",
+        "lg": "0 8px 32px rgba(0, 0, 0, 0.5)",
+        "float": "0 12px 40px rgba(0, 0, 0, 0.5), 0 0 1px rgba(77, 232, 255, 0.3)",
+        "glow": "0 0 25px rgba(77, 232, 255, 0.4), 0 0 50px rgba(77, 232, 255, 0.2)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "20s"
+      }
+    },
+    "synabrain-glass-light": {
+      "id": "synabrain-glass-light",
+      "name": "Synabrain Glass Light",
+      "mode": "light",
+      "colors": {
+        "background": {
+          "primary": "#f5f0f7",
+          "secondary": "#ede4f2",
+          "tertiary": "#e4daea",
+          "elevated": "#faf7fc"
+        },
+        "accent": {
+          "blue": "#6366f1",
+          "indigo": "#8b5cf6",
+          "purple": "#a855f7",
+          "pink": "#ec4899",
+          "cyan": "#14b8a6",
+          "teal": "#0d9488"
+        },
+        "glow": {
+          "cyan": "#2dd4bf",
+          "violet": "#a78bfa",
+          "rose": "#f472b6",
+          "amber": "#fbbf24"
+        },
+        "text": {
+          "primary": "rgba(55, 48, 75, 0.92)",
+          "secondary": "rgba(55, 48, 75, 0.7)",
+          "muted": "rgba(55, 48, 75, 0.6)"
+        },
+        "glass": {
+          "background": "rgba(250, 245, 255, 0.75)",
+          "backgroundHover": "rgba(250, 245, 255, 0.88)",
+          "border": "rgba(168, 85, 247, 0.2)",
+          "borderHover": "rgba(168, 85, 247, 0.38)"
+        },
+        "status": {
+          "success": "#22c55e",
+          "successText": "#16a34a",
+          "warning": "#f59e0b",
+          "warningText": "#d97706",
+          "error": "#f43f5e",
+          "errorText": "#dc2626",
+          "info": "#14b8a6",
+          "infoText": "#0d9488"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #6366f1, #a855f7)",
+            "bgHover": "linear-gradient(135deg, #8b5cf6, #c084fc)",
+            "text": "#ffffff",
+            "textHover": "#ffffff",
+            "border": "transparent",
+            "borderHover": "rgba(168, 85, 247, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(250, 245, 255, 0.75)",
+            "bgHover": "rgba(237, 228, 242, 0.95)",
+            "text": "rgba(55, 48, 75, 0.75)",
+            "textHover": "rgba(55, 48, 75, 0.95)",
+            "border": "rgba(168, 85, 247, 0.2)",
+            "borderHover": "rgba(168, 85, 247, 0.4)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(168, 85, 247, 0.12)",
+            "text": "rgba(55, 48, 75, 0.75)",
+            "textHover": "#7c3aed",
+            "border": "rgba(168, 85, 247, 0.3)",
+            "borderHover": "rgba(168, 85, 247, 0.6)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "16px",
+          "tint": "rgba(168, 85, 247, 0.03)",
+          "opacity": 0.75
+        },
+        "glow": {
+          "primary": "0 0 24px rgba(168, 85, 247, 0.2)",
+          "secondary": "0 0 24px rgba(236, 72, 153, 0.2)",
+          "intensity": 0.5
+        },
+        "rainbow": {
+          "shimmerDuration": "20s",
+          "gradientStops": [
+            "#c4b5fd",
+            "#f0abfc",
+            "#fda4af",
+            "#a5f3fc",
+            "#c4b5fd"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', 'Consolas', monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "xl": "20px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(168, 85, 247, 0.08)",
+        "md": "0 4px 16px rgba(168, 85, 247, 0.1)",
+        "lg": "0 8px 32px rgba(168, 85, 247, 0.12)",
+        "float": "0 12px 40px rgba(168, 85, 247, 0.1), 0 0 1px rgba(168, 85, 247, 0.15)",
+        "glow": "0 0 24px rgba(168, 85, 247, 0.25), 0 0 48px rgba(236, 72, 153, 0.12)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "20s"
+      }
+    },
+    "martian-games-dark": {
+      "id": "martian-games-dark",
+      "name": "Martian Games Dark",
+      "mode": "dark",
+      "colors": {
+        "background": {
+          "primary": "rgba(26, 10, 10, 0.82)",
+          "secondary": "rgba(45, 20, 20, 0.85)",
+          "tertiary": "rgba(61, 30, 30, 0.85)",
+          "elevated": "rgba(74, 40, 40, 0.90)"
+        },
+        "accent": {
+          "blue": "#e85d3d",
+          "indigo": "#c73e2c",
+          "purple": "#d4442c",
+          "pink": "#ff8c69",
+          "cyan": "#ff6b4a",
+          "teal": "#ffa07a"
+        },
+        "glow": {
+          "cyan": "#ff7f50",
+          "violet": "#dc5037",
+          "rose": "#ff9466",
+          "amber": "#ffc078"
+        },
+        "text": {
+          "primary": "rgba(255, 230, 220, 0.92)",
+          "secondary": "rgba(255, 200, 180, 0.7)",
+          "muted": "rgba(255, 180, 160, 0.5)"
+        },
+        "glass": {
+          "background": "rgba(45, 20, 20, 0.65)",
+          "backgroundHover": "rgba(60, 30, 30, 0.75)",
+          "border": "rgba(255, 107, 74, 0.25)",
+          "borderHover": "rgba(255, 107, 74, 0.45)"
+        },
+        "status": {
+          "success": "#7cb342",
+          "warning": "#ffb74d",
+          "error": "#ff5252",
+          "info": "#ff8a65"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #ff6b4a, #d4442c)",
+            "bgHover": "linear-gradient(135deg, #ff8c69, #e85d3d)",
+            "text": "#ffffff",
+            "textHover": "#ffffff",
+            "border": "transparent",
+            "borderHover": "rgba(255, 107, 74, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(45, 20, 20, 0.65)",
+            "bgHover": "rgba(75, 40, 40, 0.8)",
+            "text": "rgba(255, 230, 220, 0.75)",
+            "textHover": "#ffffff",
+            "border": "rgba(255, 107, 74, 0.25)",
+            "borderHover": "rgba(255, 107, 74, 0.45)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(255, 107, 74, 0.15)",
+            "text": "rgba(255, 230, 220, 0.75)",
+            "textHover": "#ff7f50",
+            "border": "rgba(255, 107, 74, 0.35)",
+            "borderHover": "rgba(255, 107, 74, 0.6)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "16px",
+          "tint": "rgba(255, 107, 74, 0.03)",
+          "opacity": 0.65
+        },
+        "glow": {
+          "primary": "0 0 25px rgba(255, 107, 74, 0.4)",
+          "secondary": "0 0 25px rgba(212, 68, 44, 0.35)",
+          "intensity": 0.85
+        },
+        "rainbow": {
+          "shimmerDuration": "20s",
+          "gradientStops": [
+            "#ff7f50",
+            "#dc5037",
+            "#ff9466",
+            "#ffc078",
+            "#ff7f50"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', 'Consolas', monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "xl": "20px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(0, 0, 0, 0.4)",
+        "md": "0 4px 16px rgba(0, 0, 0, 0.5)",
+        "lg": "0 8px 32px rgba(0, 0, 0, 0.6)",
+        "float": "0 12px 40px rgba(0, 0, 0, 0.6), 0 0 1px rgba(255, 107, 74, 0.3)",
+        "glow": "0 0 25px rgba(255, 107, 74, 0.45), 0 0 50px rgba(255, 107, 74, 0.2)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "20s"
+      }
+    },
+    "martian-games-light": {
+      "id": "martian-games-light",
+      "name": "Martian Games Light",
+      "mode": "light",
+      "colors": {
+        "background": {
+          "primary": "rgba(254, 245, 240, 0.82)",
+          "secondary": "rgba(253, 232, 220, 0.85)",
+          "tertiary": "rgba(252, 218, 200, 0.85)",
+          "elevated": "rgba(255, 248, 245, 0.90)"
+        },
+        "accent": {
+          "blue": "#c73e2c",
+          "indigo": "#a33024",
+          "purple": "#b8372a",
+          "pink": "#e85d3d",
+          "cyan": "#d4442c",
+          "teal": "#dc5037"
+        },
+        "glow": {
+          "cyan": "#e85d3d",
+          "violet": "#c73e2c",
+          "rose": "#ff7f50",
+          "amber": "#ffab76"
+        },
+        "text": {
+          "primary": "rgba(45, 20, 20, 0.92)",
+          "secondary": "rgba(60, 30, 30, 0.75)",
+          "muted": "rgba(80, 40, 40, 0.6)"
+        },
+        "glass": {
+          "background": "rgba(255, 245, 240, 0.8)",
+          "backgroundHover": "rgba(255, 235, 225, 0.9)",
+          "border": "rgba(212, 68, 44, 0.2)",
+          "borderHover": "rgba(212, 68, 44, 0.35)"
+        },
+        "status": {
+          "success": "#558b2f",
+          "successText": "#33691e",
+          "warning": "#ef6c00",
+          "warningText": "#e65100",
+          "error": "#c62828",
+          "errorText": "#b71c1c",
+          "info": "#d84315",
+          "infoText": "#bf360c"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #d4442c, #b8372a)",
+            "bgHover": "linear-gradient(135deg, #e85d3d, #c73e2c)",
+            "text": "#ffffff",
+            "textHover": "#ffffff",
+            "border": "transparent",
+            "borderHover": "rgba(212, 68, 44, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(255, 245, 240, 0.8)",
+            "bgHover": "rgba(253, 232, 220, 0.95)",
+            "text": "rgba(45, 20, 20, 0.75)",
+            "textHover": "rgba(45, 20, 20, 0.95)",
+            "border": "rgba(212, 68, 44, 0.2)",
+            "borderHover": "rgba(212, 68, 44, 0.4)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(212, 68, 44, 0.1)",
+            "text": "rgba(45, 20, 20, 0.75)",
+            "textHover": "#c73e2c",
+            "border": "rgba(212, 68, 44, 0.35)",
+            "borderHover": "rgba(212, 68, 44, 0.6)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "16px",
+          "tint": "rgba(212, 68, 44, 0.03)",
+          "opacity": 0.8
+        },
+        "glow": {
+          "primary": "0 0 24px rgba(212, 68, 44, 0.2)",
+          "secondary": "0 0 24px rgba(184, 55, 42, 0.18)",
+          "intensity": 0.5
+        },
+        "rainbow": {
+          "shimmerDuration": "20s",
+          "gradientStops": [
+            "#ffccbc",
+            "#ffab91",
+            "#ff8a65",
+            "#ffccbc",
+            "#ffccbc"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', 'Consolas', monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "xl": "20px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(212, 68, 44, 0.08)",
+        "md": "0 4px 16px rgba(212, 68, 44, 0.1)",
+        "lg": "0 8px 32px rgba(212, 68, 44, 0.12)",
+        "float": "0 12px 40px rgba(212, 68, 44, 0.1), 0 0 1px rgba(212, 68, 44, 0.15)",
+        "glow": "0 0 24px rgba(212, 68, 44, 0.25), 0 0 48px rgba(184, 55, 42, 0.12)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "20s"
+      }
+    },
+    "tinted-glass-dark": {
+      "id": "tinted-glass-dark",
+      "name": "Tinted Glass Dark",
+      "mode": "dark",
+      "colors": {
+        "background": {
+          "primary": "rgba(10, 10, 18, 0.82)",
+          "secondary": "rgba(16, 16, 26, 0.85)",
+          "tertiary": "rgba(24, 24, 34, 0.85)",
+          "elevated": "rgba(32, 32, 44, 0.90)"
+        },
+        "accent": {
+          "blue": "#74b9ff",
+          "indigo": "#c59cff",
+          "purple": "#bc8cff",
+          "pink": "#ff6b9d",
+          "cyan": "#72f1e8",
+          "teal": "#7bed9f"
+        },
+        "glow": {
+          "cyan": "#72f1e8",
+          "violet": "#c59cff",
+          "rose": "#ff6b9d",
+          "amber": "#feca57"
+        },
+        "text": {
+          "primary": "rgba(224, 224, 232, 0.95)",
+          "secondary": "rgba(224, 224, 232, 0.65)",
+          "muted": "rgba(224, 224, 232, 0.4)"
+        },
+        "glass": {
+          "background": "rgba(10, 10, 18, 0.65)",
+          "backgroundHover": "rgba(16, 16, 26, 0.78)",
+          "border": "rgba(114, 241, 232, 0.18)",
+          "borderHover": "rgba(114, 241, 232, 0.35)"
+        },
+        "status": {
+          "success": "#7bed9f",
+          "warning": "#feca57",
+          "error": "#ff6b6b",
+          "info": "#72f1e8"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #72f1e8, #c59cff)",
+            "bgHover": "linear-gradient(135deg, #98f5f0, #ddb8ff)",
+            "text": "#0a0a12",
+            "textHover": "#0a0a12",
+            "border": "transparent",
+            "borderHover": "rgba(114, 241, 232, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(10, 10, 18, 0.55)",
+            "bgHover": "rgba(24, 24, 34, 0.75)",
+            "text": "rgba(224, 224, 232, 0.75)",
+            "textHover": "#e0e0e8",
+            "border": "rgba(114, 241, 232, 0.18)",
+            "borderHover": "rgba(114, 241, 232, 0.35)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(114, 241, 232, 0.12)",
+            "text": "rgba(224, 224, 232, 0.75)",
+            "textHover": "#72f1e8",
+            "border": "rgba(114, 241, 232, 0.25)",
+            "borderHover": "rgba(114, 241, 232, 0.5)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "12px",
+          "tint": "rgba(114, 241, 232, 0.02)",
+          "opacity": 0.65
+        },
+        "glow": {
+          "primary": "0 0 20px rgba(114, 241, 232, 0.3)",
+          "secondary": "0 0 20px rgba(197, 156, 255, 0.3)",
+          "intensity": 0.7
+        },
+        "rainbow": {
+          "shimmerDuration": "25s",
+          "gradientStops": [
+            "#72f1e8",
+            "#74b9ff",
+            "#c59cff",
+            "#ff6b9d",
+            "#72f1e8"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', 'Consolas', monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "xl": "20px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(0, 0, 0, 0.35)",
+        "md": "0 4px 16px rgba(0, 0, 0, 0.45)",
+        "lg": "0 8px 32px rgba(0, 0, 0, 0.55)",
+        "float": "0 12px 40px rgba(0, 0, 0, 0.5), 0 0 1px rgba(114, 241, 232, 0.2)",
+        "glow": "0 0 20px rgba(114, 241, 232, 0.35), 0 0 40px rgba(114, 241, 232, 0.15)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "25s"
+      }
+    },
+    "tinted-glass-light": {
+      "id": "tinted-glass-light",
+      "name": "Tinted Glass Light",
+      "mode": "light",
+      "colors": {
+        "background": {
+          "primary": "rgba(240, 240, 245, 0.82)",
+          "secondary": "rgba(232, 232, 240, 0.85)",
+          "tertiary": "rgba(221, 221, 232, 0.85)",
+          "elevated": "rgba(248, 248, 252, 0.90)"
+        },
+        "accent": {
+          "blue": "#4a90d9",
+          "indigo": "#7c5cbf",
+          "purple": "#8b6cc1",
+          "pink": "#d94f7a",
+          "cyan": "#0d9488",
+          "teal": "#2b9e6f"
+        },
+        "glow": {
+          "cyan": "#14b8a6",
+          "violet": "#8b5cf6",
+          "rose": "#ec4899",
+          "amber": "#f59e0b"
+        },
+        "text": {
+          "primary": "rgba(10, 10, 18, 0.92)",
+          "secondary": "rgba(10, 10, 18, 0.65)",
+          "muted": "rgba(10, 10, 18, 0.45)"
+        },
+        "glass": {
+          "background": "rgba(255, 255, 255, 0.55)",
+          "backgroundHover": "rgba(255, 255, 255, 0.72)",
+          "border": "rgba(13, 148, 136, 0.2)",
+          "borderHover": "rgba(13, 148, 136, 0.38)"
+        },
+        "status": {
+          "success": "#22c55e",
+          "successText": "#16a34a",
+          "warning": "#f59e0b",
+          "warningText": "#d97706",
+          "error": "#ef4444",
+          "errorText": "#dc2626",
+          "info": "#0d9488",
+          "infoText": "#0f766e"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #0d9488, #8b5cf6)",
+            "bgHover": "linear-gradient(135deg, #14b8a6, #a78bfa)",
+            "text": "#ffffff",
+            "textHover": "#ffffff",
+            "border": "transparent",
+            "borderHover": "rgba(13, 148, 136, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(255, 255, 255, 0.55)",
+            "bgHover": "rgba(232, 232, 240, 0.85)",
+            "text": "rgba(10, 10, 18, 0.75)",
+            "textHover": "rgba(10, 10, 18, 0.95)",
+            "border": "rgba(13, 148, 136, 0.2)",
+            "borderHover": "rgba(13, 148, 136, 0.38)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(13, 148, 136, 0.1)",
+            "text": "rgba(10, 10, 18, 0.75)",
+            "textHover": "#0d9488",
+            "border": "rgba(13, 148, 136, 0.3)",
+            "borderHover": "rgba(13, 148, 136, 0.55)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "16px",
+          "tint": "rgba(13, 148, 136, 0.02)",
+          "opacity": 0.55
+        },
+        "glow": {
+          "primary": "0 0 20px rgba(13, 148, 136, 0.18)",
+          "secondary": "0 0 20px rgba(139, 92, 246, 0.18)",
+          "intensity": 0.45
+        },
+        "rainbow": {
+          "shimmerDuration": "25s",
+          "gradientStops": [
+            "#14b8a6",
+            "#60a5fa",
+            "#a78bfa",
+            "#f472b6",
+            "#14b8a6"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', 'Consolas', monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "xl": "20px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(13, 148, 136, 0.06)",
+        "md": "0 4px 16px rgba(13, 148, 136, 0.08)",
+        "lg": "0 8px 32px rgba(13, 148, 136, 0.1)",
+        "float": "0 12px 40px rgba(13, 148, 136, 0.08), 0 0 1px rgba(13, 148, 136, 0.12)",
+        "glow": "0 0 20px rgba(13, 148, 136, 0.2), 0 0 40px rgba(139, 92, 246, 0.1)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "25s"
+      }
+    },
+    "holographic-glass-dark": {
+      "id": "holographic-glass-dark",
+      "name": "Holographic Glass Dark",
+      "mode": "dark",
+      "colors": {
+        "background": {
+          "primary": "#08060e",
+          "secondary": "#120e1a",
+          "tertiary": "#1a1424",
+          "elevated": "#262030"
+        },
+        "accent": {
+          "blue": "#6ba5ff",
+          "indigo": "#c46bff",
+          "purple": "#c084fc",
+          "pink": "#ff6bd6",
+          "cyan": "#6bffd6",
+          "teal": "#00fa9a"
+        },
+        "glow": {
+          "cyan": "#6bffd6",
+          "violet": "#c46bff",
+          "rose": "#ff6bd6",
+          "amber": "#fff06b"
+        },
+        "text": {
+          "primary": "rgba(255, 255, 255, 0.92)",
+          "secondary": "rgba(255, 255, 255, 0.65)",
+          "muted": "rgba(255, 255, 255, 0.4)"
+        },
+        "glass": {
+          "background": "rgba(14,10,22,0.42)",
+          "backgroundHover": "rgba(14,10,22,0.54)",
+          "border": "rgba(200,160,255,0.18)",
+          "borderHover": "rgba(200,160,255,0.38)"
+        },
+        "status": {
+          "success": "#4ade80",
+          "warning": "#ffd93d",
+          "error": "#ff6b6b",
+          "info": "#6bffd6"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #c46bff, #6bffd6)",
+            "bgHover": "linear-gradient(135deg, #d089ff, #89ffde)",
+            "text": "#ffffff",
+            "textHover": "#ffffff",
+            "border": "transparent",
+            "borderHover": "rgba(196, 107, 255, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(14,10,22,0.42)",
+            "bgHover": "rgba(14,10,22,0.57)",
+            "text": "rgba(255, 255, 255, 0.75)",
+            "textHover": "#ffffff",
+            "border": "rgba(200,160,255,0.18)",
+            "borderHover": "rgba(200,160,255,0.38)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(196, 107, 255, 0.15)",
+            "text": "rgba(255, 255, 255, 0.75)",
+            "textHover": "#6bffd6",
+            "border": "rgba(196, 107, 255, 0.3)",
+            "borderHover": "rgba(196, 107, 255, 0.6)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "20px",
+          "tint": "rgba(200,160,255,0.03)",
+          "opacity": 0.42
+        },
+        "glow": {
+          "primary": "0 0 25px rgba(196, 107, 255, 0.35)",
+          "secondary": "0 0 25px rgba(107, 255, 214, 0.35)",
+          "intensity": 0.95
+        },
+        "rainbow": {
+          "shimmerDuration": "12s",
+          "gradientStops": [
+            "#ff6bd6",
+            "#c46bff",
+            "#6ba5ff",
+            "#6bffd6",
+            "#fff06b",
+            "#ff6bd6"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "xl": "20px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(0, 0, 0, 0.3)",
+        "md": "0 4px 16px rgba(0, 0, 0, 0.4)",
+        "lg": "0 8px 32px rgba(0, 0, 0, 0.5)",
+        "float": "0 12px 40px rgba(0, 0, 0, 0.5), 0 0 1px rgba(196, 107, 255, 0.3)",
+        "glow": "0 0 25px rgba(196, 107, 255, 0.4), 0 0 50px rgba(196, 107, 255, 0.2)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "12s"
+      }
+    },
+    "holographic-glass-light": {
+      "id": "holographic-glass-light",
+      "name": "Holographic Glass Light",
+      "mode": "light",
+      "colors": {
+        "background": {
+          "primary": "#faf8ff",
+          "secondary": "#f0ecf8",
+          "tertiary": "#e4ddf0",
+          "elevated": "#d8d1e4"
+        },
+        "accent": {
+          "blue": "#4f6fff",
+          "indigo": "#a855f7",
+          "purple": "#9333ea",
+          "pink": "#ec4899",
+          "cyan": "#14b8a6",
+          "teal": "#059669"
+        },
+        "glow": {
+          "cyan": "#2dd4bf",
+          "violet": "#a855f7",
+          "rose": "#ec4899",
+          "amber": "#fbbf24"
+        },
+        "text": {
+          "primary": "rgba(30, 30, 50, 0.92)",
+          "secondary": "rgba(30, 30, 50, 0.7)",
+          "muted": "rgba(30, 30, 50, 0.5)"
+        },
+        "glass": {
+          "background": "rgba(248,244,255,0.5)",
+          "backgroundHover": "rgba(248,244,255,0.62)",
+          "border": "rgba(160,100,255,0.12)",
+          "borderHover": "rgba(160,100,255,0.32)"
+        },
+        "status": {
+          "success": "#22c55e",
+          "successText": "#16a34a",
+          "warning": "#f59e0b",
+          "warningText": "#d97706",
+          "error": "#f43f5e",
+          "errorText": "#dc2626",
+          "info": "#a855f7",
+          "infoText": "#a855f7"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #a855f7, #2dd4bf)",
+            "bgHover": "linear-gradient(135deg, #b56ff8, #4ddac9)",
+            "text": "#ffffff",
+            "textHover": "#ffffff",
+            "border": "transparent",
+            "borderHover": "rgba(45, 212, 191, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(248,244,255,0.5)",
+            "bgHover": "rgba(248,244,255,0.65)",
+            "text": "rgba(30, 30, 50, 0.75)",
+            "textHover": "rgba(30, 30, 50, 0.95)",
+            "border": "rgba(160,100,255,0.12)",
+            "borderHover": "rgba(160,100,255,0.32)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(168, 85, 247, 0.12)",
+            "text": "rgba(30, 30, 50, 0.75)",
+            "textHover": "#2dd4bf",
+            "border": "rgba(168, 85, 247, 0.3)",
+            "borderHover": "rgba(168, 85, 247, 0.6)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "20px",
+          "tint": "rgba(160,100,255,0.02)",
+          "opacity": 0.5
+        },
+        "glow": {
+          "primary": "0 0 25px rgba(168, 85, 247, 0.2)",
+          "secondary": "0 0 25px rgba(45, 212, 191, 0.2)",
+          "intensity": 0.6
+        },
+        "rainbow": {
+          "shimmerDuration": "12s",
+          "gradientStops": [
+            "#ff6bd6",
+            "#c46bff",
+            "#6ba5ff",
+            "#6bffd6",
+            "#fff06b",
+            "#ff6bd6"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "6px",
+        "md": "10px",
+        "lg": "14px",
+        "xl": "20px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(0, 0, 0, 0.08)",
+        "md": "0 4px 16px rgba(0, 0, 0, 0.1)",
+        "lg": "0 8px 32px rgba(0, 0, 0, 0.12)",
+        "float": "0 12px 40px rgba(0, 0, 0, 0.1), 0 0 1px rgba(168, 85, 247, 0.15)",
+        "glow": "0 0 25px rgba(168, 85, 247, 0.25), 0 0 50px rgba(168, 85, 247, 0.12)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "12s"
+      }
+    },
+    "midnight-chrome-dark": {
+      "id": "midnight-chrome-dark",
+      "name": "Midnight Chrome Dark",
+      "mode": "dark",
+      "colors": {
+        "background": {
+          "primary": "#080c1a",
+          "secondary": "#0c1226",
+          "tertiary": "#121a34",
+          "elevated": "#1e2640"
+        },
+        "accent": {
+          "blue": "#3b82f6",
+          "indigo": "#6366f1",
+          "purple": "#a855f7",
+          "pink": "#ec4899",
+          "cyan": "#60a5fa",
+          "teal": "#22c55e"
+        },
+        "glow": {
+          "cyan": "#60a5fa",
+          "violet": "#a78bfa",
+          "rose": "#fb7185",
+          "amber": "#f59e0b"
+        },
+        "text": {
+          "primary": "rgba(255, 255, 255, 0.92)",
+          "secondary": "rgba(255, 255, 255, 0.65)",
+          "muted": "rgba(255, 255, 255, 0.4)"
+        },
+        "glass": {
+          "background": "rgba(8,12,28,0.52)",
+          "backgroundHover": "rgba(8,12,28,0.64)",
+          "border": "rgba(80,120,220,0.16)",
+          "borderHover": "rgba(80,120,220,0.36)"
+        },
+        "status": {
+          "success": "#4ade80",
+          "warning": "#ffd93d",
+          "error": "#ff6b6b",
+          "info": "#60a5fa"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #60a5fa, #a855f7)",
+            "bgHover": "linear-gradient(135deg, #80b7fb, #b977f9)",
+            "text": "#ffffff",
+            "textHover": "#ffffff",
+            "border": "transparent",
+            "borderHover": "rgba(96, 165, 250, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(8,12,28,0.52)",
+            "bgHover": "rgba(8,12,28,0.67)",
+            "text": "rgba(255, 255, 255, 0.75)",
+            "textHover": "#ffffff",
+            "border": "rgba(80,120,220,0.16)",
+            "borderHover": "rgba(80,120,220,0.36)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(96, 165, 250, 0.15)",
+            "text": "rgba(255, 255, 255, 0.75)",
+            "textHover": "#60a5fa",
+            "border": "rgba(96, 165, 250, 0.3)",
+            "borderHover": "rgba(96, 165, 250, 0.6)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "16px",
+          "tint": "rgba(80,120,220,0.02)",
+          "opacity": 0.52
+        },
+        "glow": {
+          "primary": "0 0 25px rgba(96, 165, 250, 0.35)",
+          "secondary": "0 0 25px rgba(168, 85, 247, 0.35)",
+          "intensity": 0.85
+        },
+        "rainbow": {
+          "shimmerDuration": "25s",
+          "gradientStops": [
+            "#60a5fa",
+            "#a78bfa",
+            "#fb7185",
+            "#f59e0b",
+            "#60a5fa"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "12px",
+        "xl": "14px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(0, 0, 0, 0.3)",
+        "md": "0 4px 16px rgba(0, 0, 0, 0.4)",
+        "lg": "0 8px 32px rgba(0, 0, 0, 0.5)",
+        "float": "0 12px 40px rgba(0, 0, 0, 0.5), 0 0 1px rgba(96, 165, 250, 0.3)",
+        "glow": "0 0 25px rgba(96, 165, 250, 0.4), 0 0 50px rgba(96, 165, 250, 0.2)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "25s"
+      }
+    },
+    "midnight-chrome-light": {
+      "id": "midnight-chrome-light",
+      "name": "Midnight Chrome Light",
+      "mode": "light",
+      "colors": {
+        "background": {
+          "primary": "#eef2fa",
+          "secondary": "#dae2f4",
+          "tertiary": "#c8d2ea",
+          "elevated": "#bcc6de"
+        },
+        "accent": {
+          "blue": "#2563eb",
+          "indigo": "#4f46e5",
+          "purple": "#7c3aed",
+          "pink": "#db2777",
+          "cyan": "#0284c7",
+          "teal": "#059669"
+        },
+        "glow": {
+          "cyan": "#0ea5e9",
+          "violet": "#7c3aed",
+          "rose": "#e11d48",
+          "amber": "#d97706"
+        },
+        "text": {
+          "primary": "rgba(30, 30, 50, 0.92)",
+          "secondary": "rgba(30, 30, 50, 0.7)",
+          "muted": "rgba(30, 30, 50, 0.5)"
+        },
+        "glass": {
+          "background": "rgba(236,240,250,0.55)",
+          "backgroundHover": "rgba(236,240,250,0.67)",
+          "border": "rgba(80,110,200,0.12)",
+          "borderHover": "rgba(80,110,200,0.32)"
+        },
+        "status": {
+          "success": "#22c55e",
+          "successText": "#16a34a",
+          "warning": "#f59e0b",
+          "warningText": "#d97706",
+          "error": "#f43f5e",
+          "errorText": "#dc2626",
+          "info": "#0284c7",
+          "infoText": "#0284c7"
+        },
+        "button": {
+          "primary": {
+            "bg": "linear-gradient(135deg, #0284c7, #7c3aed)",
+            "bgHover": "linear-gradient(135deg, #2896cf, #9058f0)",
+            "text": "#ffffff",
+            "textHover": "#ffffff",
+            "border": "transparent",
+            "borderHover": "rgba(124, 58, 237, 0.5)"
+          },
+          "secondary": {
+            "bg": "rgba(236,240,250,0.55)",
+            "bgHover": "rgba(236,240,250,0.70)",
+            "text": "rgba(30, 30, 50, 0.75)",
+            "textHover": "rgba(30, 30, 50, 0.95)",
+            "border": "rgba(80,110,200,0.12)",
+            "borderHover": "rgba(80,110,200,0.32)"
+          },
+          "outline": {
+            "bg": "transparent",
+            "bgHover": "rgba(2, 132, 199, 0.12)",
+            "text": "rgba(30, 30, 50, 0.75)",
+            "textHover": "#0ea5e9",
+            "border": "rgba(2, 132, 199, 0.3)",
+            "borderHover": "rgba(2, 132, 199, 0.6)"
+          }
+        }
+      },
+      "effects": {
+        "glass": {
+          "blur": "16px",
+          "tint": "rgba(80,110,200,0.02)",
+          "opacity": 0.55
+        },
+        "glow": {
+          "primary": "0 0 25px rgba(2, 132, 199, 0.2)",
+          "secondary": "0 0 25px rgba(124, 58, 237, 0.2)",
+          "intensity": 0.5
+        },
+        "rainbow": {
+          "shimmerDuration": "25s",
+          "gradientStops": [
+            "#0ea5e9",
+            "#7c3aed",
+            "#e11d48",
+            "#d97706",
+            "#0ea5e9"
+          ]
+        }
+      },
+      "fonts": {
+        "heading": "'Orbitron', ui-sans-serif, system-ui, sans-serif",
+        "body": "'Outfit', ui-sans-serif, system-ui, -apple-system, sans-serif",
+        "mono": "'JetBrains Mono', ui-monospace, monospace"
+      },
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px"
+      },
+      "borderRadius": {
+        "sm": "4px",
+        "md": "8px",
+        "lg": "12px",
+        "xl": "14px",
+        "full": "9999px"
+      },
+      "shadows": {
+        "sm": "0 2px 8px rgba(0, 0, 0, 0.08)",
+        "md": "0 4px 16px rgba(0, 0, 0, 0.1)",
+        "lg": "0 8px 32px rgba(0, 0, 0, 0.12)",
+        "float": "0 12px 40px rgba(0, 0, 0, 0.1), 0 0 1px rgba(2, 132, 199, 0.15)",
+        "glow": "0 0 25px rgba(2, 132, 199, 0.25), 0 0 50px rgba(2, 132, 199, 0.12)"
+      },
+      "timing": {
+        "fast": "0.15s",
+        "normal": "0.25s",
+        "slow": "0.4s",
+        "drift": "25s"
+      }
+    }
+  }
+}
