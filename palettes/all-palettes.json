@@ -178,8 +178,8 @@
       "name": "Synagentic Glass",
       "modes": ["dark", "light"],
       "default": true,
-      "dark": { "bg": "#0a0e14", "bgSecondary": "rgba(14,20,32,0.88)", "bgTertiary": "rgba(20,28,40,0.78)", "text": "#e6edf3", "glass": "rgba(10,14,20,0.55)", "blur": "14px", "border": "rgba(140,255,240,0.08)" },
-      "light": { "bg": "#f0f4f8", "bgSecondary": "rgba(220,228,240,0.85)", "bgTertiary": "rgba(200,212,228,0.75)", "text": "#0e1726", "glass": "rgba(240,244,248,0.55)", "blur": "14px", "border": "rgba(60,180,170,0.12)" }
+      "dark": { "bg": "#0a0e14", "bgSecondary": "rgba(14,20,32,0.88)", "bgTertiary": "rgba(20,28,40,0.78)", "text": "#e6edf3", "glass": "rgba(10,14,20,0.55)", "blur": "14px", "border": "rgba(136,200,255,0.08)" },
+      "light": { "bg": "#f0f4f8", "bgSecondary": "rgba(220,228,240,0.85)", "bgTertiary": "rgba(200,212,228,0.75)", "text": "#0e1726", "glass": "rgba(240,244,248,0.55)", "blur": "14px", "border": "rgba(58,124,192,0.12)" }
     },
     "synabrain-glass": {
       "name": "Synabrain Glass",
