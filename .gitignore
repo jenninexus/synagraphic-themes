@@ -5,6 +5,8 @@ dev.md
 .config/
 .env
 CLAUDE.md
+.claude/
+.mcp.json
 syn-themes.code-workspace
 tools/
 assets/screenshot-sample.tsx
