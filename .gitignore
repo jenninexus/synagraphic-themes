@@ -11,6 +11,7 @@ syn-themes.code-workspace
 tools/
 assets/screenshot-sample.tsx
 assets/sample/
+assets/media/
 scroll-capture.mjs
 synagraphic-themes.html
 
