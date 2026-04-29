@@ -57,13 +57,14 @@ When brand colors change, update **both** formats manually.
 
 1. Edit `syn-themes/palettes/all-palettes.json` with the new palette values
 2. Copy the changed palette block(s) to `syna-theme-kit/palettes/syn-themes.json`
-3. If the app palette format has also changed, update per-app inline defaults:
-   - `Synabrain/clients/react/src/stores/accentPalettes.ts`
-   - `Synagen/apps/Synagen.Engine/src/editor/store/themeCustomizerStore.ts`
-   - `Syqo/src/themes/accentPalettes.ts`
-   - `Sylva/src/theme/syn-themes.json` (vendored copy — update directly)
-4. Copy updated `syn-themes.json` from syna-theme-kit to `optional-features/registry/syn-themes.json`, then bump the submodule pointer in Synabrain, Synagen, and Syqo
-5. Commit `syn-themes` separately
+3. If the app palette format has also changed, copy updated `syn-themes.json` from syna-theme-kit
+   to each host app that vendors it (copy-on-update, no submodule):
+   - `Syqo/src/themes/syn-themes.json` (vendored copy)
+   - `Sylva/src/theme/syn-themes.json` (vendored copy)
+   - Update inline defaults: `Synabrain/clients/react/src/stores/accentPalettes.ts`,
+     `Synagen/apps/Synagen.Engine/src/editor/store/themeCustomizerStore.ts`,
+     `Syqo/src/themes/accentPalettes.ts`
+4. Commit `syn-themes` separately
 
 Full step-by-step including commit commands: [`syna-theme-kit/docs/PROTOCOL.md § Scenario B`](../syna-theme-kit/docs/PROTOCOL.md)
 

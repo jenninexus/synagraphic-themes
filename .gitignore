@@ -15,6 +15,6 @@ assets/media/
 scroll-capture.mjs
 synagraphic-themes.html
 
-# Extracted theme JSONs — local-only snapshots, copied into host apps when ready
-# Not tracked in git; regenerate by extracting from Syqo src/themes/*.json
+# syna/ was a local-only skin snapshot — moved to syna-theme-kit/skins/ (2026-04-29)
+# Kept in gitignore in case it's regenerated locally; canonical is syna-theme-kit
 syna/
